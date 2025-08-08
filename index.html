@@ -6,10 +6,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Page</h1>
+    <h1 class="wel">Welcome to My Page</h1>
     <form id="nameForm" action="greet.php" method="POST" onsubmit="return validateForm()">
         <label for="name">Enter your name:</label>
         <input type="text" id="name" name="name" required>
+        <br>
+        <label for="name">Enter your Email:</label>
+        <input type="email" id="name" name="name" required>
+
+        <br>
+        <label for="name">Enter your Number:</label>
+        <input type="number" id="name" name="name" required>
+        <br>
         <button type="submit">Submit</button>
     </form>
 

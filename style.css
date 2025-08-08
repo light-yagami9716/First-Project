@@ -4,11 +4,21 @@ body {
     text-align: center;
     margin-top: 100px;
 }
-
+.wel{
+    /* background: #000; */
+    font-size: 40px;
+}
 form {
-    background-color: #fff;
+    background-color: #f3f2f2;
+    padding: 40px;
     display: inline-block;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 2px solid black;
+}
+
+form>input{
+    margin-bottom: 10px;
+
 }
